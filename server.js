@@ -11,7 +11,6 @@ const Pong = (_, response) => response
 	.status(200)
 	.send('pong');
 
-
 const port = process.env.PORT || 3003;
 const app = express();
 
@@ -24,7 +23,6 @@ app.use(express.urlencoded({ extended: false }));
 
 // Set this config so we can get ip address from proxy
 app.enable('trust proxy')
-
 
 // Swagger docs
 let {CURRENT_ENV: env} = process.env
