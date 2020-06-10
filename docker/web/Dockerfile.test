@@ -1,0 +1,9 @@
+FROM node:12
+
+ADD . /web
+
+WORKDIR /web
+
+RUN npm i
+
+CMD ["npm", "run", "test"]

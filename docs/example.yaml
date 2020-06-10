@@ -1,0 +1,6 @@
+paths:
+  /hello:
+    get:
+      responses:
+        200:
+          description: Hello, world

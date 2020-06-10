@@ -1,0 +1,22 @@
+node_modules
+
+# MacOS
+.DS_Store
+._.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Code Coverage
+.nyc_output
+coverage
+reports
+
+# VSCode
+.vscode
+
+# Only used locally
+.env
+.env*

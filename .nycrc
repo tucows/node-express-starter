@@ -1,0 +1,7 @@
+{
+	"all": true,
+	"include": ["app", "routes"],
+	"exclude": ["node_modules", "test", "docs"],
+	"reporter": ["lcov", "html", "text"],
+	"report-dir": "./reports"
+}

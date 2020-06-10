@@ -1,0 +1,18 @@
+{
+	"env": {
+		"node": true,
+		"es6": true
+	},
+	"rules": {
+		"require-jsdoc": "warn",
+		"comma-spacing": "warn",
+		"no-warning-comments": "warn",
+		"no-invalid-this" : "off",
+		"require-atomic-updates": "off",
+		"camelcase": "off",
+		"max-lines": ["warn", 450]
+	},
+	"extends": [
+		"eslint-config-tucows"
+	]
+}
