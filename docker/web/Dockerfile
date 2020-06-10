@@ -1,6 +1,6 @@
 FROM node:12
 
-WORKDIR /teapot
+WORKDIR /web
 
 COPY . ./
 
