@@ -1,6 +1,4 @@
-# Teapot
-
-Sample Node + Express project set up
+# Sample Node + Express project (optimized for Nazca + Nomad deploys)
 
 Module-based, so ideally separate concerns go in separate folders under `./app/`.
 Testing directory structure mimics `./app` structure.
