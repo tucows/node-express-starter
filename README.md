@@ -1,6 +1,8 @@
-# Sample Node + Express project (optimized for Nazca + Nomad deploys)
+# Sample Node + Express project
 
-Module-based, so ideally separate concerns go in separate folders under `./app/`.
+Simple ExpressJS API service boilerplate with Docker, tests, and async/await route handlers.
+
+Module-based, so ideally separate concerns go in different folders under `./app/`.
 Testing directory structure mimics `./app` structure.
 
 
