@@ -17,9 +17,9 @@ Also, see [swagger docs](./teapot/docs/README.md)
 [PM2 (Process manager for Node) reference](http://pm2.keymetrics.io/docs/usage/quick-start/#managing-processes)
 
 ## Demployment
-Optimized for Nazca + Nomad pipeline.
+Optimized for Docker + Jenkins + Nomad pipeline.
 
-Sample repo doesn't have Jenkins file or Makefile, work with Ops to get it set up.
+Sample repo doesn't have Jenkins file or Makefile, work with Ops to get it set up (if needed).
 Also, `docker-compose-test.yml` will need `volumes` to be configured (if working with Nomad; removed for security)
 
 ## Testing
